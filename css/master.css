@@ -1,0 +1,76 @@
+body{
+    position: relative;
+    left: 10%;
+    width: 80%;
+    font-family: arial;
+}
+section.big{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    overflow: hidden;
+    margin-bottom: 30px;
+    grid-column-gap: 20px;
+}
+section.writing{
+    grid-column: 2;
+}
+section.book{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-column-gap: 20px;
+    margin-bottom: 20px;
+}
+aside{
+    grid-column: 1;
+    overflow: hidden;
+}
+footer{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    font-size: 0.7em;
+    grid-column-gap: 20px;
+}
+article{
+    grid-column: 2;
+}
+#contact_info{
+    grid-column: 2;
+}
+header{
+    position: relative;
+    height: 150px;
+}
+h1{
+    position: relative;
+    left: 40%;
+    top: 10%;
+    font-size: 2.5em;
+    font-weight: normal;
+}
+h2{
+    font-size: 1em;
+}
+h3{
+    font-size: 1em;
+    font-weight: normal;
+    font-style: italic;
+}
+#books{
+    margin-bottom: 30px;
+}
+#banner{
+    background-color: darkred;
+    height: 10px;
+}
+#title{
+    margin-bottom: 0px;
+}
+#magazine{
+    margin-bottom: 0px;
+}
+#year{
+    margin-bottom: 0px;
+}
+#url{
+    margin-bottom: 0px;
+}
